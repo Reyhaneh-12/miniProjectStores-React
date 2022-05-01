@@ -1,15 +1,16 @@
 import React, { useContext } from 'react';
 import { ProductsContext } from '../context/ProductContextProvider';
+import Product from './shared/Product';
+
+import './store.css';
 
 const Store = () => {
 
     const products = useContext(ProductsContext);
     return (
-        <div>
+        <div className="container">
             {
-                products.map(product => <div key={product.id}>
-                    {product.title}
-                </div>)
+                products.map(product => <Product key={product.id} productData={product} />)
             }
         </div>
     );
