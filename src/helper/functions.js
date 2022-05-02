@@ -5,5 +5,16 @@ const shorten = (text) => {
     return newText;
 }
 
+const isInCart = (state, id) => {
+    const result = !!state.selectedItems.find(item => item.id === id);
+    return result;
+}
 
-export {shorten};
+const quantityCount = (state, id) => {
+    const index = state.selectedItems.findIndex(item => item.id === id);
+    if(index !== -1)
+        return state.selectedItems[index].quantity;
+    return false;
+}
+
+export {shorten, isInCart, quantityCount};

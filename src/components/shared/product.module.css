@@ -32,3 +32,47 @@
   margin: 15px 20px;
   font-size: 16px;
 }
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 0 20px;
+}
+
+.productDetails {
+  text-decoration: none;
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.productDetails:hover {
+  background: rgb(221, 221, 221);
+}
+
+button {
+  background: rgb(49, 145, 49);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background: rgb(36, 110, 36);
+}
+
+.productBtn {
+  padding: 10px 20px;
+}
+
+.productSmallBtn {
+  padding: 10px;
+}
+
+.productQuantity {
+  padding: 5px;
+  font-size: 18px;
+}
