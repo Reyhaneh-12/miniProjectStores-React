@@ -1,3 +1,53 @@
 .container {
-    background: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid silver;
+    margin-bottom: 20px;
 }
+  
+.productImage {
+    width: 80px;
+}
+  
+.data {
+    text-align: left;
+}
+  
+.title {
+    color: #306430;
+    margin-bottom: 10px;
+}
+  
+.price {
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+}
+  
+.quantity {
+    background: rgb(228, 163, 41);
+    width: 25px;
+    height: 25px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.buttonContainer button {
+    background-color: rgb(74, 158, 74);
+    border: none;
+    color: #fff;
+    width: fit-content;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 24px !important;
+    padding: 0 5px;
+    margin-left: 5px;
+}
+  
+  
+ 

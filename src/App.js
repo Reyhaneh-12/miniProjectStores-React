@@ -2,11 +2,11 @@ import { Redirect, Route, Switch } from 'react-router';
 import Navbar from './components/shared/Navbar';
 import Store from './components/Store';
 import ProductDetails from './components/ProductDetails';
-import Cart from './components/shared/Cart'
 import './App.css';
 
 import ProductContextProvider from './context/ProductContextProvider';
 import CartContextProvider from './context/CartContextProvider';
+import ShoppCart from './components/ShoppCart';
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
           <Switch>
             <Route path="/products/:id" component={ProductDetails} />
             <Route path="/products" component={Store} />
-            <Route path="/cart" component={Cart} />
+            <Route path="/cart" component={ShoppCart} />
             <Redirect to="/products" />
           </Switch>
         </CartContextProvider>
