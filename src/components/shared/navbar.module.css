@@ -1,0 +1,42 @@
+.container {
+    height: 50px;
+    background: rgb(71, 82, 71);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    box-shadow: 0px 5px 24px rgba(149, 157, 165, 0.4);
+    position: fixed;
+    top: 0;
+}
+
+.productLink {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.iconContainer {
+    position: relative; 
+}
+
+.productCart {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background: rgb(138, 187, 140);
+    padding: 1px 10px 3px;
+    border-radius: 5px;
+}
+
+.counterCart{
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    padding: 0px 6px;
+    top: -10px;
+    right: -10px;
+    border: 1px solid rgb(71, 82, 71);
+    color: black;
+}
