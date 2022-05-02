@@ -1,0 +1,70 @@
+.container {
+    margin: 100px 150px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(185, 185, 185);
+    /* padding: 40px 40px 10px 40px; */
+}
+
+.image {
+    width: 350px;
+    padding: 40px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 10px 0;
+}
+
+.title {
+    font-size: 28px;
+    font-weight:bolder;
+    color: #306430;
+}
+
+.description {
+    color: rgb(78, 78, 78);
+    font-size: 17px;
+}
+
+.category {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(49, 145, 49);
+}
+
+.category span {
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(20, 20, 20);
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0 0 0;
+}
+
+.price {
+    font-size: 20px;
+    color: white;
+    background: rgb(49, 145, 49);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btnContainer a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: white;
+    color: black;
+}
+.btnContainer a:hover{
+    background: black;
+    color: white;
+}
